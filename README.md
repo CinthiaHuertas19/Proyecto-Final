@@ -14,3 +14,4 @@ Javascript, HTML, CSS, DISEÑO UX/UI
 
 Repositorio al GitHub : https://github.com/CinthiaHuertas19/Proyecto-Final.git
 
+Deploy en GitHub : https://cinthiahuertas19.github.io/Proyecto-Final/
