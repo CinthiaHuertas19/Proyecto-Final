@@ -18,16 +18,9 @@ document.addEventListener('DOMContentLoaded', function () {
             mostrarError("Por favor, completa todos los campos obligatorios.");
             return false; // El formulario no está validado
         }
-
-
-        if (!validarEmail(email)) {
-            mostrarError("Por favor, ingresa un correo electrónico válido.");
-            return false; // El formulario no está validado
-        }
-
+        
         return true; // El formulario está validado y puede enviarse
     }
 
-    
 });
 
