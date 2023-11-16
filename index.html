@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Muebles</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="nombre-sitio">Tienda <span> Muebles </span></h1>
+    </header>
+    
+    <div class="contenedor-navegacion">
+        <nav class="nav-principal contenedor">
+            <a href="index.html">Inicio</a>
+            <a href="#nosotros-id">Nosotros</a>
+            <a href="#galeria">Galeria</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </div>
+
+
+    <div class="hero"></div>
+
+    <section class="contenedor categorias">
+        <h2 class="text-center">Categorías de Productos</h2>
+
+        <div class="listado-categorias">
+            <div class="categoria">
+                <img src="imagenes/categoria1.jpg" alt="Imagen Categoría" />
+                <a href="#">Oficina</a>
+            </div>
+
+            <div class="categoria">
+                <img src="imagenes/categoria2.jpg" alt="Imagen Categoría" />
+                <a href="#">Hogar</a>
+            </div>
+
+            <div class="categoria">
+                <img src="imagenes/categoria3.jpg" alt="Imagen Categoría" />
+                <a href="#">Cocina</a>
+            </div>
+        </div>
+    </section>
+    <section class="sobre-nosotros" id="nosotros-id">
+        <div class="contenedor sobre-nosotros-grid">
+            <div class="texto-nosotros">
+                <h2 id="nosotros">Sobre Nosotros</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae, voluptatum fugiat numquam sunt error, odit nostrum sed adipisci minima ipsum labore asperiores. Assumenda delectus necessitatibus iusto, dolore vel quod blanditiis!</p>
+            </div>
+        </div>
+    </section>
+
+    <main class="contenido-principal contenedor ">
+        <h2 class="text-center" id="galeria" >Galería</h2>
+
+        <ul class="galeria">
+            <li>
+                <a href="imagenes/galeria_01.jpg">
+                    <img src="imagenes/galeria_01.jpg" alt="imagen galeria">
+                </a>
+            </li>
+
+            <li>
+                <a href="imagenes/galeria_02.jpg">
+                    <img src="imagenes/galeria_02.jpg" alt="imagen galeria">
+                </a>
+            </li>
+
+            <li>
+                <a href="imagenes/galeria_03.jpg">
+                    <img src="imagenes/galeria_03.jpg" alt="imagen galeria">
+                </a>
+            </li>
+
+            <li>
+                <a href="imagenes/galeria_04.jpg">
+                    <img src="imagenes/galeria_04.jpg" alt="imagen galeria">
+                </a>
+            </li>
+
+            <li>
+                <a href="imagenes/galeria_05.jpg">
+                    <img src="imagenes/galeria_05.jpg" alt="imagen galeria">
+                </a>
+            </li>
+
+            <li>
+                <a href="imagenes/galeria_06.jpg">
+                    <img src="imagenes/galeria_06.jpg" alt="imagen galeria">
+                </a>
+            </li>
+
+            <li>
+                <a href="imagenes/galeria_07.jpg">
+                    <img src="imagenes/galeria_07.jpg" alt="imagen galeria">
+                </a>
+            </li>
+
+            <li>
+                <a href="imagenes/galeria_08.jpg">
+                    <img src="imagenes/galeria_08.jpg" alt="imagen galeria">
+                </a>
+            </li>
+
+            <li>
+                <a href="imagenes/galeria_09.jpg">
+                    <img src="imagenes/galeria_09.jpg" alt="imagen galeria">
+                </a>
+            </li>
+        </ul>
+        
+    </main>
+
+    <div id="contacto">
+        <h2 class="text-center">Contacto</h2>
+
+        <form class="formulario">
+            <fieldset>
+                <legend>Tus Datos</legend>
+                
+                <div class="campo">
+                    <label for="nombre">Nombre: </label>
+                    <input  id="nombre" type="text" placeholder="Tu Nombre" required>
+                </div>
+
+                <div class="campo">
+                    <label for="asunto">Asunto:</label>
+                    <input id="asunto" type="text" placeholder="Tu Asunto"  required>
+                </div>
+
+                <div class="campo">
+                    <label for="email">E-mail:</label>
+                    <input id="email" type="email" placeholder="Tu Email" >
+                </div>
+
+                <div class="campo">
+                    <label for="tel">Teléfono:</label>
+                    <input id="tel" type="tel" placeholder="Tu Teléfono" >
+                </div>
+
+                <div class="campo">
+                    <label for="pais">País</label>
+                    <select id="pais">
+                        <option value="">-- Seleccione -- </option>
+                        <option value="MX">México</option>
+                        <option value="PR">Perú</option>
+                        <option value="CO">Colombia</option>
+                        <option value="AR">Argentina</option>
+                        <option value="ES">España</option>
+                        <option value="CL">Chile</option>
+                    </select>
+
+                </div>
+
+                <div class="campo">
+                    <label for="tel">Mensaje:</label>
+                    <textarea rows="10" cols="20"></textarea>
+                </div>
+
+            </fieldset>
+            <input class="btn" type="submit" value="Enviar Formulario" >
+    </div>
+
+    
+
+    <footer class="site-footer">
+        <div class="grid-footer contenedor">
+            <div>
+                <h3>Categorías</h3>
+
+                <nav class="footer-menu">
+                    <a href="#">Oficina</a>
+                    <a href="#">Hogar</a>
+                    <a href="#">Cocina</a>
+                </nav>
+            </div>
+
+            <div>
+                <h3>Sobre Nosotros</h3>
+                <nav class="footer-menu">
+                    <a href="#">Nuestra Historia</a>
+                    <a href="#">Misión, Visión y Valores</a>
+                    <a href="#">Carreras</a>
+                    <a href="#">Política de Privacidad</a>
+                    <a href="#">Términos del Servicio</a>
+                </nav>
+            </div>
+
+            <div>
+                <h3>Soporte</h3>
+                <nav class="footer-menu">
+                    <a href="#">Preguntas Frecuentes</a>
+                    <a href="#">Ayuda en línea</a>
+                    <a href="#">Confianza y Seguridad</a>
+                </nav>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="codigo/script.js"></script>
+</body>
+</html>
